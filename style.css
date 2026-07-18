@@ -17,14 +17,23 @@ body{
     /* background-color: #fef8f8; */
 /* }  */
 
-
+section{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 70px;
+}
 
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    border-radius: 10px;
 }
 h1{
     text-align: center;

@@ -9,7 +9,7 @@ let form =document.querySelector("form")
      let w=Number(weight.value)
      let h=Number(hight.value)/100
      let BMI=(w/(h*h))
-    ibmtotal.innerHTML+=`<h2>Your BMI is:
+    ibmtotal.innerHTML=`<h2>Your BMI is:
     <span style="color: rgb(37, 98, 230);">${BMI}</span>
     </h2>
      
